@@ -147,6 +147,15 @@ class ViewController: UIViewController, SoundsCallback {
         )
         addActionSheetForiPad(actionSheet: alert)
 
+        
+        alert.addAction(
+            .init(title: "Show all phrases", style: .default) { _ in
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let vc = storyboard.instantiateViewController(withIdentifier: "phrases")
+                self.navigationController?.pushViewController(vc, animated: true)
+            }
+        )
+        
         alert.addAction(
             .init(title: "Share sound", style: .default) { _ in
               
@@ -155,12 +164,6 @@ class ViewController: UIViewController, SoundsCallback {
 
         alert.addAction(
             .init(title: "Download image", style: .default) { _ in
-               
-            }
-        )
-        
-        alert.addAction(
-            .init(title: "Show all phrases", style: .default) { _ in
                
             }
         )

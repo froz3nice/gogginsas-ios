@@ -7,6 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8D33BBC27FBA82300652F4E /* always_have_haters_embrace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BBB27FBA82300652F4E /* always_have_haters_embrace.mp3 */; };
+		E8D33BEE27FBA83300652F4E /* dont_have_quiting_mind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BBD27FBA83100652F4E /* dont_have_quiting_mind.mp3 */; };
+		E8D33BEF27FBA83300652F4E /* one_day_but_not_today.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BBE27FBA83100652F4E /* one_day_but_not_today.mp3 */; };
+		E8D33BF027FBA83300652F4E /* bcs_it_sucks_merry_christmas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BBF27FBA83100652F4E /* bcs_it_sucks_merry_christmas.mp3 */; };
+		E8D33BF127FBA83300652F4E /* show_up_everyday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BC027FBA83100652F4E /* show_up_everyday.mp3 */; };
+		E8D33BF227FBA83300652F4E /* not_enough_50pounds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BC127FBA83100652F4E /* not_enough_50pounds.mp3 */; };
+		E8D33BF327FBA83300652F4E /* be_in_love_w_yourself_face_different.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BC227FBA83100652F4E /* be_in_love_w_yourself_face_different.mp3 */; };
+		E8D33BF427FBA83300652F4E /* one_finish_death.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BC327FBA83100652F4E /* one_finish_death.mp3 */; };
+		E8D33BF527FBA83300652F4E /* judgeing_problems_themselves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BC427FBA83100652F4E /* judgeing_problems_themselves.mp3 */; };
+		E8D33BF627FBA83300652F4E /* stay_hard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BC527FBA83100652F4E /* stay_hard.mp3 */; };
+		E8D33BF727FBA83300652F4E /* people_questioning_who_you_are.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BC627FBA83100652F4E /* people_questioning_who_you_are.mp3 */; };
+		E8D33BF827FBA83300652F4E /* always_have_haters_embrace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BC727FBA83100652F4E /* always_have_haters_embrace.mp3 */; };
+		E8D33BF927FBA83300652F4E /* people_dont_like_you_doing_right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BC827FBA83200652F4E /* people_dont_like_you_doing_right.mp3 */; };
+		E8D33BFA27FBA83300652F4E /* figure_out_yourselft.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BC927FBA83200652F4E /* figure_out_yourselft.mp3 */; };
+		E8D33BFB27FBA83300652F4E /* be_better_doctor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BCA27FBA83200652F4E /* be_better_doctor.mp3 */; };
+		E8D33BFD27FBA83300652F4E /* get_out_there_triple_down_on_weakness.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BCC27FBA83200652F4E /* get_out_there_triple_down_on_weakness.mp3 */; };
+		E8D33BFE27FBA83300652F4E /* cannot_fix_until_fix_urself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BCD27FBA83200652F4E /* cannot_fix_until_fix_urself.mp3 */; };
+		E8D33BFF27FBA83300652F4E /* get_to_the_source_and_fix_prob.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BCE27FBA83200652F4E /* get_to_the_source_and_fix_prob.mp3 */; };
+		E8D33C0027FBA83300652F4E /* shut_the_fcking_noise_out.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BCF27FBA83200652F4E /* shut_the_fcking_noise_out.mp3 */; };
+		E8D33C0127FBA83300652F4E /* stop_hero_of_your_story.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BD027FBA83200652F4E /* stop_hero_of_your_story.mp3 */; };
+		E8D33C0227FBA83300652F4E /* big_race_more_miles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BD127FBA83200652F4E /* big_race_more_miles.mp3 */; };
+		E8D33C0327FBA83300652F4E /* hate_get_better_like_same.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BD227FBA83200652F4E /* hate_get_better_like_same.mp3 */; };
+		E8D33C0427FBA83300652F4E /* positive_self_talk_doesnt_work.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BD327FBA83200652F4E /* positive_self_talk_doesnt_work.mp3 */; };
+		E8D33C0527FBA83300652F4E /* do_smth_everyday_that_suck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BD427FBA83200652F4E /* do_smth_everyday_that_suck.mp3 */; };
+		E8D33C0627FBA83300652F4E /* learn_brain_like_brain_learned_you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BD527FBA83200652F4E /* learn_brain_like_brain_learned_you.mp3 */; };
+		E8D33C0727FBA83300652F4E /* this_time_to_get_to_know_you_person.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BD627FBA83200652F4E /* this_time_to_get_to_know_you_person.mp3 */; };
+		E8D33C0827FBA83300652F4E /* be_who_the_f_u_are.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BD727FBA83200652F4E /* be_who_the_f_u_are.mp3 */; };
+		E8D33C0927FBA83300652F4E /* the_best_place_isolation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BD827FBA83200652F4E /* the_best_place_isolation.mp3 */; };
+		E8D33C0A27FBA83300652F4E /* internal_motivation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BD927FBA83200652F4E /* internal_motivation.mp3 */; };
+		E8D33C0B27FBA83300652F4E /* ture_growth_finding_yourself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BDA27FBA83200652F4E /* ture_growth_finding_yourself.mp3 */; };
+		E8D33C0C27FBA83300652F4E /* when_u_were_younger_what_u_wannabe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BDB27FBA83200652F4E /* when_u_were_younger_what_u_wannabe.mp3 */; };
+		E8D33C0D27FBA83300652F4E /* hungry_not_civilised.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BDC27FBA83200652F4E /* hungry_not_civilised.mp3 */; };
+		E8D33C0E27FBA83300652F4E /* life_brutal_love_about_it.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BDD27FBA83200652F4E /* life_brutal_love_about_it.mp3 */; };
+		E8D33C0F27FBA83300652F4E /* be_mvp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BDE27FBA83200652F4E /* be_mvp.mp3 */; };
+		E8D33C1027FBA83300652F4E /* stop_telin_urself_you_doin_enough.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BDF27FBA83200652F4E /* stop_telin_urself_you_doin_enough.mp3 */; };
+		E8D33C1127FBA83300652F4E /* stay_in_your_own_mind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BE027FBA83200652F4E /* stay_in_your_own_mind.mp3 */; };
+		E8D33C1227FBA83300652F4E /* healthy_body_healthy_mind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BE127FBA83200652F4E /* healthy_body_healthy_mind.mp3 */; };
+		E8D33C1327FBA83300652F4E /* if_u_lose_life_in_head.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BE227FBA83200652F4E /* if_u_lose_life_in_head.mp3 */; };
+		E8D33C1427FBA83300652F4E /* find_best_self_when_least_motivated.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BE327FBA83300652F4E /* find_best_self_when_least_motivated.mp3 */; };
+		E8D33C1527FBA83300652F4E /* equal_playing_field_get_in_the_game.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BE427FBA83300652F4E /* equal_playing_field_get_in_the_game.mp3 */; };
+		E8D33C1627FBA83300652F4E /* you_dont_know_me_son.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BE527FBA83300652F4E /* you_dont_know_me_son.mp3 */; };
+		E8D33C1727FBA83300652F4E /* fragile_die_w_meaning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BE627FBA83300652F4E /* fragile_die_w_meaning.mp3 */; };
+		E8D33C1827FBA83300652F4E /* at_the_bottom_was_me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BE727FBA83300652F4E /* at_the_bottom_was_me.mp3 */; };
+		E8D33C1927FBA83300652F4E /* find_throw_towel_back.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BE827FBA83300652F4E /* find_throw_towel_back.mp3 */; };
+		E8D33C1A27FBA83300652F4E /* whos_gonna_carry_the_boats.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BE927FBA83300652F4E /* whos_gonna_carry_the_boats.mp3 */; };
+		E8D33C1B27FBA83300652F4E /* space_in_your_head_losing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BEA27FBA83300652F4E /* space_in_your_head_losing.mp3 */; };
+		E8D33C1C27FBA83300652F4E /* good_way_hit_the_gym.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BEB27FBA83300652F4E /* good_way_hit_the_gym.mp3 */; };
+		E8D33C1D27FBA83300652F4E /* the_grind_is_forever.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BEC27FBA83300652F4E /* the_grind_is_forever.mp3 */; };
+		E8D33C1E27FBA83300652F4E /* lifes_hate_game_play_w_urself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BED27FBA83300652F4E /* lifes_hate_game_play_w_urself.mp3 */; };
+		E8D33C2427FBABCE00652F4E /* do_it_do_it_crazy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33C2327FBABCE00652F4E /* do_it_do_it_crazy.mp3 */; };
+		E8D33C2927FBBB3100652F4E /* PhraseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D33C2827FBBB3100652F4E /* PhraseViewController.swift */; };
+		E8D33C2B27FBBCF300652F4E /* PhraseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D33C2A27FBBCF300652F4E /* PhraseCell.swift */; };
+		E8D33C2D27FBBDE100652F4E /* PhraseVCExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D33C2C27FBBDE100652F4E /* PhraseVCExtention.swift */; };
 		E8F3DC7C27FB5D6F0009EC48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3DC7B27FB5D6F0009EC48 /* AppDelegate.swift */; };
 		E8F3DC7E27FB5D6F0009EC48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3DC7D27FB5D6F0009EC48 /* SceneDelegate.swift */; };
 		E8F3DC8027FB5D6F0009EC48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3DC7F27FB5D6F0009EC48 /* ViewController.swift */; };
@@ -16,6 +69,13 @@
 		E8F3DC9327FB5D710009EC48 /* GogginsMotivationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3DC9227FB5D710009EC48 /* GogginsMotivationTests.swift */; };
 		E8F3DC9D27FB5D710009EC48 /* GogginsMotivationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3DC9C27FB5D710009EC48 /* GogginsMotivationUITests.swift */; };
 		E8F3DC9F27FB5D710009EC48 /* GogginsMotivationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3DC9E27FB5D710009EC48 /* GogginsMotivationUITestsLaunchTests.swift */; };
+		E8F3DCAE27FB65510009EC48 /* ViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3DCAD27FB65510009EC48 /* ViewExtentions.swift */; };
+		E8F3DCB027FB6F010009EC48 /* ImageExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3DCAF27FB6F010009EC48 /* ImageExtentions.swift */; };
+		E8F3DCB227FB900A0009EC48 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3DCB127FB900A0009EC48 /* PaddingLabel.swift */; };
+		E8F3DCB427FB90F60009EC48 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3DCB327FB90F60009EC48 /* Utils.swift */; };
+		E8F3DCB827FB91CF0009EC48 /* PhraseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3DCB727FB91CF0009EC48 /* PhraseData.swift */; };
+		E8F3DCBA27FB984D0009EC48 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3DCB927FB984D0009EC48 /* SoundManager.swift */; };
+		E8F3DCBC27FB9A2E0009EC48 /* SoundsCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3DCBB27FB9A2E0009EC48 /* SoundsCallback.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +96,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8D33BBB27FBA82300652F4E /* always_have_haters_embrace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = always_have_haters_embrace.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/always_have_haters_embrace.mp3"; sourceTree = "<group>"; };
+		E8D33BBD27FBA83100652F4E /* dont_have_quiting_mind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dont_have_quiting_mind.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/dont_have_quiting_mind.mp3"; sourceTree = "<group>"; };
+		E8D33BBE27FBA83100652F4E /* one_day_but_not_today.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = one_day_but_not_today.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/one_day_but_not_today.mp3"; sourceTree = "<group>"; };
+		E8D33BBF27FBA83100652F4E /* bcs_it_sucks_merry_christmas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bcs_it_sucks_merry_christmas.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/bcs_it_sucks_merry_christmas.mp3"; sourceTree = "<group>"; };
+		E8D33BC027FBA83100652F4E /* show_up_everyday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = show_up_everyday.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/show_up_everyday.mp3"; sourceTree = "<group>"; };
+		E8D33BC127FBA83100652F4E /* not_enough_50pounds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = not_enough_50pounds.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/not_enough_50pounds.mp3"; sourceTree = "<group>"; };
+		E8D33BC227FBA83100652F4E /* be_in_love_w_yourself_face_different.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = be_in_love_w_yourself_face_different.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/be_in_love_w_yourself_face_different.mp3"; sourceTree = "<group>"; };
+		E8D33BC327FBA83100652F4E /* one_finish_death.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = one_finish_death.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/one_finish_death.mp3"; sourceTree = "<group>"; };
+		E8D33BC427FBA83100652F4E /* judgeing_problems_themselves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = judgeing_problems_themselves.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/judgeing_problems_themselves.mp3"; sourceTree = "<group>"; };
+		E8D33BC527FBA83100652F4E /* stay_hard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = stay_hard.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/stay_hard.mp3"; sourceTree = "<group>"; };
+		E8D33BC627FBA83100652F4E /* people_questioning_who_you_are.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = people_questioning_who_you_are.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/people_questioning_who_you_are.mp3"; sourceTree = "<group>"; };
+		E8D33BC727FBA83100652F4E /* always_have_haters_embrace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = always_have_haters_embrace.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/always_have_haters_embrace.mp3"; sourceTree = "<group>"; };
+		E8D33BC827FBA83200652F4E /* people_dont_like_you_doing_right.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = people_dont_like_you_doing_right.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/people_dont_like_you_doing_right.mp3"; sourceTree = "<group>"; };
+		E8D33BC927FBA83200652F4E /* figure_out_yourselft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = figure_out_yourselft.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/figure_out_yourselft.mp3"; sourceTree = "<group>"; };
+		E8D33BCA27FBA83200652F4E /* be_better_doctor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = be_better_doctor.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/be_better_doctor.mp3"; sourceTree = "<group>"; };
+		E8D33BCC27FBA83200652F4E /* get_out_there_triple_down_on_weakness.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = get_out_there_triple_down_on_weakness.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/get_out_there_triple_down_on_weakness.mp3"; sourceTree = "<group>"; };
+		E8D33BCD27FBA83200652F4E /* cannot_fix_until_fix_urself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cannot_fix_until_fix_urself.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/cannot_fix_until_fix_urself.mp3"; sourceTree = "<group>"; };
+		E8D33BCE27FBA83200652F4E /* get_to_the_source_and_fix_prob.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = get_to_the_source_and_fix_prob.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/get_to_the_source_and_fix_prob.mp3"; sourceTree = "<group>"; };
+		E8D33BCF27FBA83200652F4E /* shut_the_fcking_noise_out.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shut_the_fcking_noise_out.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/shut_the_fcking_noise_out.mp3"; sourceTree = "<group>"; };
+		E8D33BD027FBA83200652F4E /* stop_hero_of_your_story.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = stop_hero_of_your_story.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/stop_hero_of_your_story.mp3"; sourceTree = "<group>"; };
+		E8D33BD127FBA83200652F4E /* big_race_more_miles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = big_race_more_miles.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/big_race_more_miles.mp3"; sourceTree = "<group>"; };
+		E8D33BD227FBA83200652F4E /* hate_get_better_like_same.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hate_get_better_like_same.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/hate_get_better_like_same.mp3"; sourceTree = "<group>"; };
+		E8D33BD327FBA83200652F4E /* positive_self_talk_doesnt_work.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = positive_self_talk_doesnt_work.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/positive_self_talk_doesnt_work.mp3"; sourceTree = "<group>"; };
+		E8D33BD427FBA83200652F4E /* do_smth_everyday_that_suck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = do_smth_everyday_that_suck.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/do_smth_everyday_that_suck.mp3"; sourceTree = "<group>"; };
+		E8D33BD527FBA83200652F4E /* learn_brain_like_brain_learned_you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = learn_brain_like_brain_learned_you.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/learn_brain_like_brain_learned_you.mp3"; sourceTree = "<group>"; };
+		E8D33BD627FBA83200652F4E /* this_time_to_get_to_know_you_person.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = this_time_to_get_to_know_you_person.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/this_time_to_get_to_know_you_person.mp3"; sourceTree = "<group>"; };
+		E8D33BD727FBA83200652F4E /* be_who_the_f_u_are.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = be_who_the_f_u_are.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/be_who_the_f_u_are.mp3"; sourceTree = "<group>"; };
+		E8D33BD827FBA83200652F4E /* the_best_place_isolation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = the_best_place_isolation.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/the_best_place_isolation.mp3"; sourceTree = "<group>"; };
+		E8D33BD927FBA83200652F4E /* internal_motivation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = internal_motivation.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/internal_motivation.mp3"; sourceTree = "<group>"; };
+		E8D33BDA27FBA83200652F4E /* ture_growth_finding_yourself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ture_growth_finding_yourself.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/ture_growth_finding_yourself.mp3"; sourceTree = "<group>"; };
+		E8D33BDB27FBA83200652F4E /* when_u_were_younger_what_u_wannabe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = when_u_were_younger_what_u_wannabe.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/when_u_were_younger_what_u_wannabe.mp3"; sourceTree = "<group>"; };
+		E8D33BDC27FBA83200652F4E /* hungry_not_civilised.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hungry_not_civilised.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/hungry_not_civilised.mp3"; sourceTree = "<group>"; };
+		E8D33BDD27FBA83200652F4E /* life_brutal_love_about_it.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = life_brutal_love_about_it.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/life_brutal_love_about_it.mp3"; sourceTree = "<group>"; };
+		E8D33BDE27FBA83200652F4E /* be_mvp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = be_mvp.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/be_mvp.mp3"; sourceTree = "<group>"; };
+		E8D33BDF27FBA83200652F4E /* stop_telin_urself_you_doin_enough.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = stop_telin_urself_you_doin_enough.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/stop_telin_urself_you_doin_enough.mp3"; sourceTree = "<group>"; };
+		E8D33BE027FBA83200652F4E /* stay_in_your_own_mind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = stay_in_your_own_mind.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/stay_in_your_own_mind.mp3"; sourceTree = "<group>"; };
+		E8D33BE127FBA83200652F4E /* healthy_body_healthy_mind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = healthy_body_healthy_mind.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/healthy_body_healthy_mind.mp3"; sourceTree = "<group>"; };
+		E8D33BE227FBA83200652F4E /* if_u_lose_life_in_head.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = if_u_lose_life_in_head.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/if_u_lose_life_in_head.mp3"; sourceTree = "<group>"; };
+		E8D33BE327FBA83300652F4E /* find_best_self_when_least_motivated.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = find_best_self_when_least_motivated.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/find_best_self_when_least_motivated.mp3"; sourceTree = "<group>"; };
+		E8D33BE427FBA83300652F4E /* equal_playing_field_get_in_the_game.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = equal_playing_field_get_in_the_game.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/equal_playing_field_get_in_the_game.mp3"; sourceTree = "<group>"; };
+		E8D33BE527FBA83300652F4E /* you_dont_know_me_son.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = you_dont_know_me_son.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/you_dont_know_me_son.mp3"; sourceTree = "<group>"; };
+		E8D33BE627FBA83300652F4E /* fragile_die_w_meaning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = fragile_die_w_meaning.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/fragile_die_w_meaning.mp3"; sourceTree = "<group>"; };
+		E8D33BE727FBA83300652F4E /* at_the_bottom_was_me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = at_the_bottom_was_me.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/at_the_bottom_was_me.mp3"; sourceTree = "<group>"; };
+		E8D33BE827FBA83300652F4E /* find_throw_towel_back.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = find_throw_towel_back.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/find_throw_towel_back.mp3"; sourceTree = "<group>"; };
+		E8D33BE927FBA83300652F4E /* whos_gonna_carry_the_boats.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = whos_gonna_carry_the_boats.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/whos_gonna_carry_the_boats.mp3"; sourceTree = "<group>"; };
+		E8D33BEA27FBA83300652F4E /* space_in_your_head_losing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = space_in_your_head_losing.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/space_in_your_head_losing.mp3"; sourceTree = "<group>"; };
+		E8D33BEB27FBA83300652F4E /* good_way_hit_the_gym.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = good_way_hit_the_gym.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/good_way_hit_the_gym.mp3"; sourceTree = "<group>"; };
+		E8D33BEC27FBA83300652F4E /* the_grind_is_forever.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = the_grind_is_forever.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/the_grind_is_forever.mp3"; sourceTree = "<group>"; };
+		E8D33BED27FBA83300652F4E /* lifes_hate_game_play_w_urself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = lifes_hate_game_play_w_urself.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/lifes_hate_game_play_w_urself.mp3"; sourceTree = "<group>"; };
+		E8D33C2327FBABCE00652F4E /* do_it_do_it_crazy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = do_it_do_it_crazy.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/do_it_do_it_crazy.mp3"; sourceTree = "<group>"; };
+		E8D33C2827FBBB3100652F4E /* PhraseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseViewController.swift; sourceTree = "<group>"; };
+		E8D33C2A27FBBCF300652F4E /* PhraseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhraseCell.swift; path = "../../../Champions-Football-Predictor/Champions-Football-Predictor/main/PhraseCell.swift"; sourceTree = "<group>"; };
+		E8D33C2C27FBBDE100652F4E /* PhraseVCExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseVCExtention.swift; sourceTree = "<group>"; };
 		E8F3DC7827FB5D6F0009EC48 /* GogginsMotivation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GogginsMotivation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F3DC7B27FB5D6F0009EC48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8F3DC7D27FB5D6F0009EC48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +162,13 @@
 		E8F3DC9827FB5D710009EC48 /* GogginsMotivationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GogginsMotivationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F3DC9C27FB5D710009EC48 /* GogginsMotivationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GogginsMotivationUITests.swift; sourceTree = "<group>"; };
 		E8F3DC9E27FB5D710009EC48 /* GogginsMotivationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GogginsMotivationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E8F3DCAD27FB65510009EC48 /* ViewExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtentions.swift; sourceTree = "<group>"; };
+		E8F3DCAF27FB6F010009EC48 /* ImageExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtentions.swift; sourceTree = "<group>"; };
+		E8F3DCB127FB900A0009EC48 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		E8F3DCB327FB90F60009EC48 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		E8F3DCB727FB91CF0009EC48 /* PhraseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseData.swift; sourceTree = "<group>"; };
+		E8F3DCB927FB984D0009EC48 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		E8F3DCBB27FB9A2E0009EC48 /* SoundsCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsCallback.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +196,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8D33C2527FBBA8900652F4E /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3DCAD27FB65510009EC48 /* ViewExtentions.swift */,
+				E8F3DCAF27FB6F010009EC48 /* ImageExtentions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		E8D33C2627FBBA9D00652F4E /* main */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3DC7F27FB5D6F0009EC48 /* ViewController.swift */,
+				E8F3DC7D27FB5D6F0009EC48 /* SceneDelegate.swift */,
+				E8F3DC7B27FB5D6F0009EC48 /* AppDelegate.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		E8D33C2727FBBAB800652F4E /* soundManagerStuf */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3DCBB27FB9A2E0009EC48 /* SoundsCallback.swift */,
+				E8F3DCB927FB984D0009EC48 /* SoundManager.swift */,
+			);
+			path = soundManagerStuf;
+			sourceTree = "<group>";
+		};
 		E8F3DC6F27FB5D6E0009EC48 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +247,17 @@
 		E8F3DC7A27FB5D6F0009EC48 /* GogginsMotivation */ = {
 			isa = PBXGroup;
 			children = (
-				E8F3DC7B27FB5D6F0009EC48 /* AppDelegate.swift */,
-				E8F3DC7D27FB5D6F0009EC48 /* SceneDelegate.swift */,
-				E8F3DC7F27FB5D6F0009EC48 /* ViewController.swift */,
+				E8D33C2727FBBAB800652F4E /* soundManagerStuf */,
+				E8D33C2627FBBA9D00652F4E /* main */,
+				E8D33C2527FBBA8900652F4E /* Extentions */,
+				E8F3DCB627FB91A90009EC48 /* Phrases */,
 				E8F3DC8127FB5D6F0009EC48 /* Main.storyboard */,
 				E8F3DC8427FB5D710009EC48 /* Assets.xcassets */,
 				E8F3DC8627FB5D710009EC48 /* LaunchScreen.storyboard */,
 				E8F3DC8927FB5D710009EC48 /* Info.plist */,
+				E8F3DCB127FB900A0009EC48 /* PaddingLabel.swift */,
+				E8F3DCB327FB90F60009EC48 /* Utils.swift */,
+				E8F3DCB527FB91140009EC48 /* sounds */,
 			);
 			path = GogginsMotivation;
 			sourceTree = "<group>";
@@ -125,6 +277,74 @@
 				E8F3DC9E27FB5D710009EC48 /* GogginsMotivationUITestsLaunchTests.swift */,
 			);
 			path = GogginsMotivationUITests;
+			sourceTree = "<group>";
+		};
+		E8F3DCB527FB91140009EC48 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E8D33C2327FBABCE00652F4E /* do_it_do_it_crazy.mp3 */,
+				E8D33BC727FBA83100652F4E /* always_have_haters_embrace.mp3 */,
+				E8D33BE727FBA83300652F4E /* at_the_bottom_was_me.mp3 */,
+				E8D33BBF27FBA83100652F4E /* bcs_it_sucks_merry_christmas.mp3 */,
+				E8D33BCA27FBA83200652F4E /* be_better_doctor.mp3 */,
+				E8D33BC227FBA83100652F4E /* be_in_love_w_yourself_face_different.mp3 */,
+				E8D33BDE27FBA83200652F4E /* be_mvp.mp3 */,
+				E8D33BD727FBA83200652F4E /* be_who_the_f_u_are.mp3 */,
+				E8D33BD127FBA83200652F4E /* big_race_more_miles.mp3 */,
+				E8D33BCD27FBA83200652F4E /* cannot_fix_until_fix_urself.mp3 */,
+				E8D33BD427FBA83200652F4E /* do_smth_everyday_that_suck.mp3 */,
+				E8D33BBD27FBA83100652F4E /* dont_have_quiting_mind.mp3 */,
+				E8D33BE427FBA83300652F4E /* equal_playing_field_get_in_the_game.mp3 */,
+				E8D33BC927FBA83200652F4E /* figure_out_yourselft.mp3 */,
+				E8D33BE327FBA83300652F4E /* find_best_self_when_least_motivated.mp3 */,
+				E8D33BE827FBA83300652F4E /* find_throw_towel_back.mp3 */,
+				E8D33BE627FBA83300652F4E /* fragile_die_w_meaning.mp3 */,
+				E8D33BCC27FBA83200652F4E /* get_out_there_triple_down_on_weakness.mp3 */,
+				E8D33BCE27FBA83200652F4E /* get_to_the_source_and_fix_prob.mp3 */,
+				E8D33BEB27FBA83300652F4E /* good_way_hit_the_gym.mp3 */,
+				E8D33BD227FBA83200652F4E /* hate_get_better_like_same.mp3 */,
+				E8D33BE127FBA83200652F4E /* healthy_body_healthy_mind.mp3 */,
+				E8D33BDC27FBA83200652F4E /* hungry_not_civilised.mp3 */,
+				E8D33BE227FBA83200652F4E /* if_u_lose_life_in_head.mp3 */,
+				E8D33BD927FBA83200652F4E /* internal_motivation.mp3 */,
+				E8D33BC427FBA83100652F4E /* judgeing_problems_themselves.mp3 */,
+				E8D33BD527FBA83200652F4E /* learn_brain_like_brain_learned_you.mp3 */,
+				E8D33BDD27FBA83200652F4E /* life_brutal_love_about_it.mp3 */,
+				E8D33BED27FBA83300652F4E /* lifes_hate_game_play_w_urself.mp3 */,
+				E8D33BC127FBA83100652F4E /* not_enough_50pounds.mp3 */,
+				E8D33BBE27FBA83100652F4E /* one_day_but_not_today.mp3 */,
+				E8D33BC327FBA83100652F4E /* one_finish_death.mp3 */,
+				E8D33BC827FBA83200652F4E /* people_dont_like_you_doing_right.mp3 */,
+				E8D33BC627FBA83100652F4E /* people_questioning_who_you_are.mp3 */,
+				E8D33BD327FBA83200652F4E /* positive_self_talk_doesnt_work.mp3 */,
+				E8D33BC027FBA83100652F4E /* show_up_everyday.mp3 */,
+				E8D33BCF27FBA83200652F4E /* shut_the_fcking_noise_out.mp3 */,
+				E8D33BEA27FBA83300652F4E /* space_in_your_head_losing.mp3 */,
+				E8D33BC527FBA83100652F4E /* stay_hard.mp3 */,
+				E8D33BE027FBA83200652F4E /* stay_in_your_own_mind.mp3 */,
+				E8D33BD027FBA83200652F4E /* stop_hero_of_your_story.mp3 */,
+				E8D33BDF27FBA83200652F4E /* stop_telin_urself_you_doin_enough.mp3 */,
+				E8D33BD827FBA83200652F4E /* the_best_place_isolation.mp3 */,
+				E8D33BEC27FBA83300652F4E /* the_grind_is_forever.mp3 */,
+				E8D33BD627FBA83200652F4E /* this_time_to_get_to_know_you_person.mp3 */,
+				E8D33BDA27FBA83200652F4E /* ture_growth_finding_yourself.mp3 */,
+				E8D33BDB27FBA83200652F4E /* when_u_were_younger_what_u_wannabe.mp3 */,
+				E8D33BE927FBA83300652F4E /* whos_gonna_carry_the_boats.mp3 */,
+				E8D33BE527FBA83300652F4E /* you_dont_know_me_son.mp3 */,
+				E8D33BBB27FBA82300652F4E /* always_have_haters_embrace.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		E8F3DCB627FB91A90009EC48 /* Phrases */ = {
+			isa = PBXGroup;
+			children = (
+				E8D33C2A27FBBCF300652F4E /* PhraseCell.swift */,
+				E8F3DCB727FB91CF0009EC48 /* PhraseData.swift */,
+				E8D33C2827FBBB3100652F4E /* PhraseViewController.swift */,
+				E8D33C2C27FBBDE100652F4E /* PhraseVCExtention.swift */,
+			);
+			path = Phrases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +451,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D33BFB27FBA83300652F4E /* be_better_doctor.mp3 in Resources */,
+				E8D33BEF27FBA83300652F4E /* one_day_but_not_today.mp3 in Resources */,
+				E8D33C0D27FBA83300652F4E /* hungry_not_civilised.mp3 in Resources */,
+				E8D33C0F27FBA83300652F4E /* be_mvp.mp3 in Resources */,
+				E8D33C0C27FBA83300652F4E /* when_u_were_younger_what_u_wannabe.mp3 in Resources */,
+				E8D33C2427FBABCE00652F4E /* do_it_do_it_crazy.mp3 in Resources */,
+				E8D33C1927FBA83300652F4E /* find_throw_towel_back.mp3 in Resources */,
+				E8D33C1527FBA83300652F4E /* equal_playing_field_get_in_the_game.mp3 in Resources */,
+				E8D33BBC27FBA82300652F4E /* always_have_haters_embrace.mp3 in Resources */,
+				E8D33BFA27FBA83300652F4E /* figure_out_yourselft.mp3 in Resources */,
+				E8D33C1327FBA83300652F4E /* if_u_lose_life_in_head.mp3 in Resources */,
 				E8F3DC8827FB5D710009EC48 /* LaunchScreen.storyboard in Resources */,
+				E8D33BF427FBA83300652F4E /* one_finish_death.mp3 in Resources */,
+				E8D33C0127FBA83300652F4E /* stop_hero_of_your_story.mp3 in Resources */,
+				E8D33C1027FBA83300652F4E /* stop_telin_urself_you_doin_enough.mp3 in Resources */,
+				E8D33BEE27FBA83300652F4E /* dont_have_quiting_mind.mp3 in Resources */,
+				E8D33BF827FBA83300652F4E /* always_have_haters_embrace.mp3 in Resources */,
+				E8D33BF027FBA83300652F4E /* bcs_it_sucks_merry_christmas.mp3 in Resources */,
+				E8D33BF527FBA83300652F4E /* judgeing_problems_themselves.mp3 in Resources */,
+				E8D33C0327FBA83300652F4E /* hate_get_better_like_same.mp3 in Resources */,
+				E8D33C0627FBA83300652F4E /* learn_brain_like_brain_learned_you.mp3 in Resources */,
+				E8D33BF927FBA83300652F4E /* people_dont_like_you_doing_right.mp3 in Resources */,
+				E8D33C0827FBA83300652F4E /* be_who_the_f_u_are.mp3 in Resources */,
+				E8D33BFF27FBA83300652F4E /* get_to_the_source_and_fix_prob.mp3 in Resources */,
 				E8F3DC8527FB5D710009EC48 /* Assets.xcassets in Resources */,
+				E8D33C1727FBA83300652F4E /* fragile_die_w_meaning.mp3 in Resources */,
+				E8D33C1127FBA83300652F4E /* stay_in_your_own_mind.mp3 in Resources */,
+				E8D33BF727FBA83300652F4E /* people_questioning_who_you_are.mp3 in Resources */,
+				E8D33C1C27FBA83300652F4E /* good_way_hit_the_gym.mp3 in Resources */,
+				E8D33C1D27FBA83300652F4E /* the_grind_is_forever.mp3 in Resources */,
+				E8D33C0E27FBA83300652F4E /* life_brutal_love_about_it.mp3 in Resources */,
+				E8D33C1827FBA83300652F4E /* at_the_bottom_was_me.mp3 in Resources */,
+				E8D33C0227FBA83300652F4E /* big_race_more_miles.mp3 in Resources */,
+				E8D33BF227FBA83300652F4E /* not_enough_50pounds.mp3 in Resources */,
+				E8D33C1227FBA83300652F4E /* healthy_body_healthy_mind.mp3 in Resources */,
+				E8D33BFE27FBA83300652F4E /* cannot_fix_until_fix_urself.mp3 in Resources */,
+				E8D33C0427FBA83300652F4E /* positive_self_talk_doesnt_work.mp3 in Resources */,
+				E8D33C1427FBA83300652F4E /* find_best_self_when_least_motivated.mp3 in Resources */,
+				E8D33C0027FBA83300652F4E /* shut_the_fcking_noise_out.mp3 in Resources */,
+				E8D33BF627FBA83300652F4E /* stay_hard.mp3 in Resources */,
+				E8D33C1627FBA83300652F4E /* you_dont_know_me_son.mp3 in Resources */,
+				E8D33C0727FBA83300652F4E /* this_time_to_get_to_know_you_person.mp3 in Resources */,
 				E8F3DC8327FB5D6F0009EC48 /* Main.storyboard in Resources */,
+				E8D33BF327FBA83300652F4E /* be_in_love_w_yourself_face_different.mp3 in Resources */,
+				E8D33C1A27FBA83300652F4E /* whos_gonna_carry_the_boats.mp3 in Resources */,
+				E8D33C1B27FBA83300652F4E /* space_in_your_head_losing.mp3 in Resources */,
+				E8D33C0B27FBA83300652F4E /* ture_growth_finding_yourself.mp3 in Resources */,
+				E8D33BF127FBA83300652F4E /* show_up_everyday.mp3 in Resources */,
+				E8D33C1E27FBA83300652F4E /* lifes_hate_game_play_w_urself.mp3 in Resources */,
+				E8D33C0927FBA83300652F4E /* the_best_place_isolation.mp3 in Resources */,
+				E8D33C0A27FBA83300652F4E /* internal_motivation.mp3 in Resources */,
+				E8D33BFD27FBA83300652F4E /* get_out_there_triple_down_on_weakness.mp3 in Resources */,
+				E8D33C0527FBA83300652F4E /* do_smth_everyday_that_suck.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +528,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F3DCB827FB91CF0009EC48 /* PhraseData.swift in Sources */,
+				E8F3DCB227FB900A0009EC48 /* PaddingLabel.swift in Sources */,
 				E8F3DC8027FB5D6F0009EC48 /* ViewController.swift in Sources */,
+				E8D33C2B27FBBCF300652F4E /* PhraseCell.swift in Sources */,
+				E8D33C2D27FBBDE100652F4E /* PhraseVCExtention.swift in Sources */,
 				E8F3DC7C27FB5D6F0009EC48 /* AppDelegate.swift in Sources */,
+				E8F3DCB427FB90F60009EC48 /* Utils.swift in Sources */,
+				E8D33C2927FBBB3100652F4E /* PhraseViewController.swift in Sources */,
+				E8F3DCB027FB6F010009EC48 /* ImageExtentions.swift in Sources */,
+				E8F3DCBC27FB9A2E0009EC48 /* SoundsCallback.swift in Sources */,
 				E8F3DC7E27FB5D6F0009EC48 /* SceneDelegate.swift in Sources */,
+				E8F3DCAE27FB65510009EC48 /* ViewExtentions.swift in Sources */,
+				E8F3DCBA27FB984D0009EC48 /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +725,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -473,6 +754,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
