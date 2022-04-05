@@ -8,15 +8,24 @@
 import UIKit
 
 @main
+@available(iOS 13.0, *)
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        self.window = UIWindow()
+
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "main") as! ViewController
+        let navigationController = UINavigationController.init(rootViewController: viewController)
+        self.window?.rootViewController = navigationController
+
+        self.window?.makeKeyAndVisible()
+     
         return true
     }
-
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
