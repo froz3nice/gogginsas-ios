@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8C3E37027FE0D4D00E77915 /* ViewControllerExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C3E36F27FE0D4D00E77915 /* ViewControllerExtentions.swift */; };
+		E8C3E37227FE0E3F00E77915 /* SoundsExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C3E37127FE0E3F00E77915 /* SoundsExtentions.swift */; };
 		E8D33BBC27FBA82300652F4E /* always_have_haters_embrace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BBB27FBA82300652F4E /* always_have_haters_embrace.mp3 */; };
 		E8D33BEE27FBA83300652F4E /* dont_have_quiting_mind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BBD27FBA83100652F4E /* dont_have_quiting_mind.mp3 */; };
 		E8D33BEF27FBA83300652F4E /* one_day_but_not_today.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BBE27FBA83100652F4E /* one_day_but_not_today.mp3 */; };
@@ -96,6 +98,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8C3E36F27FE0D4D00E77915 /* ViewControllerExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtentions.swift; sourceTree = "<group>"; };
+		E8C3E37127FE0E3F00E77915 /* SoundsExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsExtentions.swift; sourceTree = "<group>"; };
 		E8D33BBB27FBA82300652F4E /* always_have_haters_embrace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = always_have_haters_embrace.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/always_have_haters_embrace.mp3"; sourceTree = "<group>"; };
 		E8D33BBD27FBA83100652F4E /* dont_have_quiting_mind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dont_have_quiting_mind.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/dont_have_quiting_mind.mp3"; sourceTree = "<group>"; };
 		E8D33BBE27FBA83100652F4E /* one_day_but_not_today.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = one_day_but_not_today.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/one_day_but_not_today.mp3"; sourceTree = "<group>"; };
@@ -211,6 +215,7 @@
 				E8F3DC7F27FB5D6F0009EC48 /* ViewController.swift */,
 				E8F3DC7D27FB5D6F0009EC48 /* SceneDelegate.swift */,
 				E8F3DC7B27FB5D6F0009EC48 /* AppDelegate.swift */,
+				E8C3E36F27FE0D4D00E77915 /* ViewControllerExtentions.swift */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 		E8D33C2727FBBAB800652F4E /* soundManagerStuf */ = {
 			isa = PBXGroup;
 			children = (
+				E8C3E37127FE0E3F00E77915 /* SoundsExtentions.swift */,
 				E8F3DCBB27FB9A2E0009EC48 /* SoundsCallback.swift */,
 				E8F3DCB927FB984D0009EC48 /* SoundManager.swift */,
 			);
@@ -529,8 +535,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8F3DCB827FB91CF0009EC48 /* PhraseData.swift in Sources */,
+				E8C3E37227FE0E3F00E77915 /* SoundsExtentions.swift in Sources */,
 				E8F3DCB227FB900A0009EC48 /* PaddingLabel.swift in Sources */,
 				E8F3DC8027FB5D6F0009EC48 /* ViewController.swift in Sources */,
+				E8C3E37027FE0D4D00E77915 /* ViewControllerExtentions.swift in Sources */,
 				E8D33C2B27FBBCF300652F4E /* PhraseCell.swift in Sources */,
 				E8D33C2D27FBBDE100652F4E /* PhraseVCExtention.swift in Sources */,
 				E8F3DC7C27FB5D6F0009EC48 /* AppDelegate.swift in Sources */,

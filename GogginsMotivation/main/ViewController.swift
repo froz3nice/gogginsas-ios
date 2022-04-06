@@ -23,14 +23,14 @@ class ViewController: UIViewController, SoundsCallback {
         lbl.numberOfLines = 0
         return lbl
     }()
-    var phrases = Util.getPhrasesData()
     var soundPlayer: SoundManager!
-    
+    var imageSize = 50.0
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
         initUI()
-        soundPlayer = SoundManager(callback: self)
+        soundPlayer = SoundManager(callback: self, isContinous: true, data: Util.getPhrasesData().shuffled())
         
         // Do any additional setup after loading the view.
     }
@@ -52,13 +52,15 @@ class ViewController: UIViewController, SoundsCallback {
         left = UIButton(type: .custom)
         right = UIButton(type: .custom)
         play = UIButton(type: .custom)
+        if UIDevice().userInterfaceIdiom == .pad {
+            imageSize = 100.0
+        }
+        left.setImage(UIImage(named: "next")?.resize(maxWidthHeight: imageSize), for: .normal)
+        right.setImage(UIImage(named: "next")?.resize(maxWidthHeight: imageSize), for: .normal)
+        play.setImage(UIImage(named: "play")?.resize(maxWidthHeight: imageSize), for: .normal)
         
-        left.setImage(UIImage(named: "next")?.resize(maxWidthHeight: 50), for: .normal)
-        right.setImage(UIImage(named: "next")?.resize(maxWidthHeight: 50), for: .normal)
-        play.setImage(UIImage(named: "play")?.resize(maxWidthHeight: 50), for: .normal)
-        
-        left.setImage(UIImage(named: "next2")?.resize(maxWidthHeight: 50), for: .highlighted)
-        right.setImage(UIImage(named: "next2")?.resize(maxWidthHeight: 50), for: .highlighted)
+        left.setImage(UIImage(named: "next2")?.resize(maxWidthHeight: imageSize), for: .highlighted)
+        right.setImage(UIImage(named: "next2")?.resize(maxWidthHeight: imageSize), for: .highlighted)
         
         
         left.isUserInteractionEnabled = true
@@ -83,7 +85,7 @@ class ViewController: UIViewController, SoundsCallback {
         mainLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         mainLabel.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width * 0.8).isActive = true
         
-        stackView.anchor(top: nil, left: view.leftAnchor, bottom: view.bottomAnchor, right: view.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 70, enableInsets: false)
+        stackView.anchor(top: nil, left: view.leftAnchor, bottom: view.bottomAnchor, right: view.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 150, enableInsets: false)
         
         stackView.addArrangedSubview(left)
         stackView.addArrangedSubview(play)
@@ -132,45 +134,39 @@ class ViewController: UIViewController, SoundsCallback {
     
     func changeIcon() {
         if (soundPlayer.isPlaying) {
-            play.setImage(UIImage(named: "pause")!.resize(maxWidthHeight: 50), for: .normal)
+            play.setImage(UIImage(named: "pause")!.resize(maxWidthHeight: imageSize), for: .normal)
         } else {
-            play.setImage(UIImage(named: "play")!.resize(maxWidthHeight: 50), for: .normal)
+            play.setImage(UIImage(named: "play")!.resize(maxWidthHeight: imageSize), for: .normal)
         }
     }
     
     @objc func tappedOnScreen(sender: UITapGestureRecognizer){
         print("tap")
+        soundPlayer.stop()
         let alert = UIAlertController(
             title: nil,
             message: nil,
             preferredStyle: .actionSheet
         )
         addActionSheetForiPad(actionSheet: alert)
-
         
         alert.addAction(
             .init(title: "Show all phrases", style: .default) { _ in
-                let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                let vc = storyboard.instantiateViewController(withIdentifier: "phrases")
-                self.navigationController?.pushViewController(vc, animated: true)
+                let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let newViewController = storyBoard.instantiateViewController(withIdentifier: "phrases") as! PhraseViewController
+                self.navigationController?.pushViewController(newViewController, animated: true)
             }
         )
         
         alert.addAction(
             .init(title: "Share sound", style: .default) { _ in
-              
-            }
-        )
-
-        alert.addAction(
-            .init(title: "Download image", style: .default) { _ in
-               
+                self.shareSound(fileName: self.soundPlayer.data[self.soundPlayer.index].soundRes)
             }
         )
         
         alert.addAction(
             .init(title: "Rate app", style: .default) { _ in
-               
+                self.rateApp()
             }
         )
         alert.addAction(
@@ -179,14 +175,6 @@ class ViewController: UIViewController, SoundsCallback {
             }
         )
         present(alert, animated: true)
-    }
-    
-    public func addActionSheetForiPad(actionSheet: UIAlertController) {
-      if let popoverPresentationController = actionSheet.popoverPresentationController {
-        popoverPresentationController.sourceView = self.view
-        popoverPresentationController.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
-        popoverPresentationController.permittedArrowDirections = []
-      }
     }
 }
 

@@ -11,15 +11,17 @@ import AVFoundation
 class SoundManager: NSObject, AVAudioPlayerDelegate {
        
     var mediaPlayer: AVAudioPlayer?
-    var data = Util.getPhrasesData()
+    var data = [PhraseData]()
     var index = 0
     var isPlaying = false
     var callback: SoundsCallback? = nil
+    var isContinous = true
     
-    init(callback: SoundsCallback?) {
+    init(callback: SoundsCallback?, isContinous: Bool, data : [PhraseData]) {
         /// this codes for making this app ready to takeover the device audio
         super.init()
-        data = data.shuffled()
+        self.isContinous = isContinous
+        self.data = data
         self.callback = callback
         self.checkPrevious()
         self.callback?.setMainText(text: data[index].soundText)
@@ -32,6 +34,7 @@ class SoundManager: NSObject, AVAudioPlayerDelegate {
     }
     
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool){
+        if !isContinous {return}
         setNextSound()
         playContinousSounds()
     }
