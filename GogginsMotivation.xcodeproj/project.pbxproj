@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E848E92A2820897500AA795A /* VcExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E848E9292820897500AA795A /* VcExtentions.swift */; };
 		E8C3E37027FE0D4D00E77915 /* ViewControllerExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C3E36F27FE0D4D00E77915 /* ViewControllerExtentions.swift */; };
 		E8C3E37227FE0E3F00E77915 /* SoundsExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C3E37127FE0E3F00E77915 /* SoundsExtentions.swift */; };
 		E8D33BBC27FBA82300652F4E /* always_have_haters_embrace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8D33BBB27FBA82300652F4E /* always_have_haters_embrace.mp3 */; };
@@ -62,6 +63,7 @@
 		E8D33C2927FBBB3100652F4E /* PhraseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D33C2827FBBB3100652F4E /* PhraseViewController.swift */; };
 		E8D33C2B27FBBCF300652F4E /* PhraseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D33C2A27FBBCF300652F4E /* PhraseCell.swift */; };
 		E8D33C2D27FBBDE100652F4E /* PhraseVCExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D33C2C27FBBDE100652F4E /* PhraseVCExtention.swift */; };
+		E8E2A14927FE42E00004CD5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E2A14827FE42E00004CD5F /* Assets.xcassets */; };
 		E8F3DC7C27FB5D6F0009EC48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3DC7B27FB5D6F0009EC48 /* AppDelegate.swift */; };
 		E8F3DC7E27FB5D6F0009EC48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3DC7D27FB5D6F0009EC48 /* SceneDelegate.swift */; };
 		E8F3DC8027FB5D6F0009EC48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3DC7F27FB5D6F0009EC48 /* ViewController.swift */; };
@@ -98,6 +100,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E848E9292820897500AA795A /* VcExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VcExtentions.swift; sourceTree = "<group>"; };
 		E8C3E36F27FE0D4D00E77915 /* ViewControllerExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtentions.swift; sourceTree = "<group>"; };
 		E8C3E37127FE0E3F00E77915 /* SoundsExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsExtentions.swift; sourceTree = "<group>"; };
 		E8D33BBB27FBA82300652F4E /* always_have_haters_embrace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = always_have_haters_embrace.mp3; path = "../../../../Android-Apps/Appsai/GogginsoAppsas/app/src/main/res/raw/always_have_haters_embrace.mp3"; sourceTree = "<group>"; };
@@ -153,6 +156,7 @@
 		E8D33C2827FBBB3100652F4E /* PhraseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseViewController.swift; sourceTree = "<group>"; };
 		E8D33C2A27FBBCF300652F4E /* PhraseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhraseCell.swift; path = "../../../Champions-Football-Predictor/Champions-Football-Predictor/main/PhraseCell.swift"; sourceTree = "<group>"; };
 		E8D33C2C27FBBDE100652F4E /* PhraseVCExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseVCExtention.swift; sourceTree = "<group>"; };
+		E8E2A14827FE42E00004CD5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/AppIcons (1)/Assets.xcassets"; sourceTree = "<group>"; };
 		E8F3DC7827FB5D6F0009EC48 /* GogginsMotivation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GogginsMotivation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F3DC7B27FB5D6F0009EC48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8F3DC7D27FB5D6F0009EC48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -205,6 +209,7 @@
 			children = (
 				E8F3DCAD27FB65510009EC48 /* ViewExtentions.swift */,
 				E8F3DCAF27FB6F010009EC48 /* ImageExtentions.swift */,
+				E848E9292820897500AA795A /* VcExtentions.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -220,14 +225,14 @@
 			path = main;
 			sourceTree = "<group>";
 		};
-		E8D33C2727FBBAB800652F4E /* soundManagerStuf */ = {
+		E8D33C2727FBBAB800652F4E /* soundsManager */ = {
 			isa = PBXGroup;
 			children = (
 				E8C3E37127FE0E3F00E77915 /* SoundsExtentions.swift */,
 				E8F3DCBB27FB9A2E0009EC48 /* SoundsCallback.swift */,
 				E8F3DCB927FB984D0009EC48 /* SoundManager.swift */,
 			);
-			path = soundManagerStuf;
+			path = soundsManager;
 			sourceTree = "<group>";
 		};
 		E8F3DC6F27FB5D6E0009EC48 = {
@@ -253,12 +258,13 @@
 		E8F3DC7A27FB5D6F0009EC48 /* GogginsMotivation */ = {
 			isa = PBXGroup;
 			children = (
-				E8D33C2727FBBAB800652F4E /* soundManagerStuf */,
+				E8D33C2727FBBAB800652F4E /* soundsManager */,
 				E8D33C2627FBBA9D00652F4E /* main */,
 				E8D33C2527FBBA8900652F4E /* Extentions */,
 				E8F3DCB627FB91A90009EC48 /* Phrases */,
 				E8F3DC8127FB5D6F0009EC48 /* Main.storyboard */,
 				E8F3DC8427FB5D710009EC48 /* Assets.xcassets */,
+				E8E2A14827FE42E00004CD5F /* Assets.xcassets */,
 				E8F3DC8627FB5D710009EC48 /* LaunchScreen.storyboard */,
 				E8F3DC8927FB5D710009EC48 /* Info.plist */,
 				E8F3DCB127FB900A0009EC48 /* PaddingLabel.swift */,
@@ -509,6 +515,7 @@
 				E8D33C0927FBA83300652F4E /* the_best_place_isolation.mp3 in Resources */,
 				E8D33C0A27FBA83300652F4E /* internal_motivation.mp3 in Resources */,
 				E8D33BFD27FBA83300652F4E /* get_out_there_triple_down_on_weakness.mp3 in Resources */,
+				E8E2A14927FE42E00004CD5F /* Assets.xcassets in Resources */,
 				E8D33C0527FBA83300652F4E /* do_smth_everyday_that_suck.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,6 +548,7 @@
 				E8C3E37027FE0D4D00E77915 /* ViewControllerExtentions.swift in Sources */,
 				E8D33C2B27FBBCF300652F4E /* PhraseCell.swift in Sources */,
 				E8D33C2D27FBBDE100652F4E /* PhraseVCExtention.swift in Sources */,
+				E848E92A2820897500AA795A /* VcExtentions.swift in Sources */,
 				E8F3DC7C27FB5D6F0009EC48 /* AppDelegate.swift in Sources */,
 				E8F3DCB427FB90F60009EC48 /* Utils.swift in Sources */,
 				E8D33C2927FBBB3100652F4E /* PhraseViewController.swift in Sources */,
@@ -726,10 +734,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = L92KF5T7CY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GogginsMotivation/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Our application needs permission to save photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -740,7 +749,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.braziusProductions.GogginsMotivation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -755,10 +764,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = L92KF5T7CY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GogginsMotivation/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Our application needs permission to save photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -769,7 +779,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.braziusProductions.GogginsMotivation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

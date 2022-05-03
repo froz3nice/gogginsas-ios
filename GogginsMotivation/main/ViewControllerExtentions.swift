@@ -1,12 +1,8 @@
-//
-//  ViewControllerExtentions.swift
-//  GogginsMotivation
-//
-//  Created by Martynas Brazionis on 2022-04-06.
-//
+
 
 import Foundation
 import UIKit
+import StoreKit
 
 extension UIViewController {
     
@@ -19,14 +15,33 @@ extension UIViewController {
     }
     
     func rateApp() {
-       if let url = URL(string: "itms-apps://itunes.apple.com/app/" + "appId") {
-            if #available(iOS 10, *) {
-                UIApplication.shared.open(url, options: [:], completionHandler: nil)
-
-            } else {
-                UIApplication.shared.openURL(url)
+        func rateApp() {
+            if #available(iOS 10.3, *) {
+                SKStoreReviewController.requestReview()
+                
+            } else if let url = URL(string: "itms-apps://itunes.apple.com/app/" + "1618110820") {
+                if #available(iOS 10, *) {
+                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                    
+                } else {
+                    UIApplication.shared.openURL(url)
+                }
             }
         }
     }
     
+    func saveImage(image: UIImage){
+        UIImageWriteToSavedPhotosAlbum(image, self, nil, nil)
+    }
+    
+    func showToast(message : String, seconds: Double){
+        let alert = UIAlertController(title: nil, message: message, preferredStyle: .alert)
+        alert.view.backgroundColor = .black
+        alert.view.alpha = 0.5
+        alert.view.layer.cornerRadius = 15
+        self.present(alert, animated: true)
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + seconds) {
+            alert.dismiss(animated: true)
+        }
+    }
 }

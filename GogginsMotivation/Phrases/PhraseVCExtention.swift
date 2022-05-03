@@ -1,10 +1,3 @@
-//
-//  PhraseVCExtention.swift
-//  GogginsMotivation
-//
-//  Created by Martynas Brazionis on 2022-04-04.
-//
-
 import Foundation
 import UIKit
 extension PhraseViewController: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
@@ -31,7 +24,7 @@ extension PhraseViewController: UICollectionViewDataSource, UICollectionViewDele
         layout collectionViewLayout: UICollectionViewLayout,
         sizeForItemAt indexPath: IndexPath
     ) -> CGSize {
-        return CGSize(width: view.frame.width, height: 1000)
+        return CGSize(width: view.frame.width, height: 100)
     }
     
 }

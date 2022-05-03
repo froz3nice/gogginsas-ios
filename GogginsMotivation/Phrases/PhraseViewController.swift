@@ -1,9 +1,3 @@
-//
-//  PhraseViewController.swift
-//  GogginsMotivation
-//
-//  Created by Martynas Brazionis on 2022-04-04.
-//
 
 import Foundation
 import UIKit
@@ -66,16 +60,22 @@ class PhraseViewController: UIViewController {
         layout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
         layout.minimumInteritemSpacing = 10
         layout.minimumLineSpacing = 1
-        
         myCollectionView = UICollectionView(frame: self.view.frame, collectionViewLayout: layout)
         myCollectionView?.register(PhraseCell.self, forCellWithReuseIdentifier: PhraseCell.identifier)
         myCollectionView?.dataSource = self
         myCollectionView?.delegate = self
         myCollectionView?.contentInsetAdjustmentBehavior = .always
-        
+        myCollectionView?.isHidden = true
+
         view.addSubview(myCollectionView ?? UICollectionView())
         
         myCollectionView?.anchor(top: view.topAnchor, left: view.leftAnchor, bottom: view.bottomAnchor, right: view.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 0, enableInsets: false)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        myCollectionView?.reloadData {
+            self.myCollectionView?.isHidden = false
+        }
     }
 }
 
