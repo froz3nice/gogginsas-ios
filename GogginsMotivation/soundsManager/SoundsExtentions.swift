@@ -1,9 +1,4 @@
-//
-//  SoundsExtentions.swift
-//  GogginsMotivation
-//
-//  Created by Martynas Brazionis on 2022-04-06.
-//
+
 
 import Foundation
 import UIKit

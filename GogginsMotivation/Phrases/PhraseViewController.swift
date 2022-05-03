@@ -45,7 +45,7 @@ class PhraseViewController: UIViewController {
                 self.shareSound(fileName: self.data[index].soundRes)
             }
         )
-      
+        
         alert.addAction(
             .init(title: "Cancel", style: .cancel) { _ in
                 alert.dismiss(animated: true, completion: nil)
@@ -66,7 +66,7 @@ class PhraseViewController: UIViewController {
         myCollectionView?.delegate = self
         myCollectionView?.contentInsetAdjustmentBehavior = .always
         myCollectionView?.isHidden = true
-
+        
         view.addSubview(myCollectionView ?? UICollectionView())
         
         myCollectionView?.anchor(top: view.topAnchor, left: view.leftAnchor, bottom: view.bottomAnchor, right: view.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 0, enableInsets: false)

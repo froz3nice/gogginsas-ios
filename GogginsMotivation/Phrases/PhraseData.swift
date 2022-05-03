@@ -1,5 +1,3 @@
-
-
 import Foundation
 
 class PhraseData{
@@ -10,6 +8,6 @@ class PhraseData{
     
     var soundRes: String = ""
     var soundText: String = ""
-
+    
     
 }

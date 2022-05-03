@@ -1,9 +1,3 @@
-//
-//  VcExtentions.swift
-//  GogginsMotivation
-//
-//  Created by Martynas Brazionis on 2022-05-02.
-//
 
 import Foundation
 import UIKit
@@ -18,10 +12,6 @@ extension UIApplication {
         UIGraphicsEndImageContext()
         return image
     }
-}
-
-extension UIViewController {
-    
 }
 
 extension UICollectionView {

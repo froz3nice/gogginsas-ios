@@ -14,24 +14,25 @@ extension UIViewController {
         }
     }
     
-    func rateApp() {
-        func rateApp() {
-            if #available(iOS 10.3, *) {
-                SKStoreReviewController.requestReview()
-                
-            } else if let url = URL(string: "itms-apps://itunes.apple.com/app/" + "1618110820") {
-                if #available(iOS 10, *) {
-                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
-                    
-                } else {
-                    UIApplication.shared.openURL(url)
-                }
-            }
+    func rateApp(id : String) {
+        guard let url = URL(string : "itms-apps://itunes.apple.com/app/id\(id)?mt=8&action=write-review") else { return }
+        if #available(iOS 10.0, *) {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        } else {
+            UIApplication.shared.openURL(url)
         }
     }
     
     func saveImage(image: UIImage){
-        UIImageWriteToSavedPhotosAlbum(image, self, nil, nil)
+        UIImageWriteToSavedPhotosAlbum(image, self, #selector(self.imageSaved(image:didFinishSavingWithError:contextInfo:)), nil)
+    }
+    
+    @objc func imageSaved(image:UIImage,didFinishSavingWithError error:Error?,contextInfo:UnsafeMutableRawPointer?){
+        if error != nil {
+            self.showToast(message: "Failed to save an image", seconds: 1)
+        } else {
+            self.showToast(message: "Image saved!", seconds: 1)
+        }
     }
     
     func showToast(message : String, seconds: Double){

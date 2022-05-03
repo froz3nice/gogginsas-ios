@@ -195,7 +195,6 @@ class ViewController: UIViewController, SoundsCallback {
                 self.changeUIVisibilityForScreenshot(hide: true)
                 if let image = UIApplication.shared.getScreenshot() {
                     self.saveImage(image: image)
-                    self.showToast(message: "image saved", seconds: 1)
                 }
                 self.changeUIVisibilityForScreenshot(hide: false)
             }
@@ -203,7 +202,7 @@ class ViewController: UIViewController, SoundsCallback {
         
         alert.addAction(
             .init(title: "Rate app", style: .default) { _ in
-                self.rateApp()
+                self.rateApp(id: "1618110820")
             }
         )
         alert.addAction(
